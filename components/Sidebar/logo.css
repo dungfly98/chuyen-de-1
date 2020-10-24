@@ -1,0 +1,30 @@
+.container {
+  /* box-shadow: 5px 5px 8px #888888; */
+  position: relative;
+  z-index: 2;
+}
+
+.App-logo {
+  height: 8vmin;
+  pointer-events: none;
+  margin-bottom: 5px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 2s linear;
+  }
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
